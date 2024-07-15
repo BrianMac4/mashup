@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="SERVICENOW INSTANCE - CLAUDILLA"/>
+   <Content type="html"><![CDATA[
+   <div id="content_div"> <iframe src="https://demoindustrywf56710.service-now.com/google?id=8f2f67c7536a71103466ddeeff7b12af&table=sn_onboarding_case&sys_id=-1&query=recordGeneratorId%3D494435eb53a231103466ddeeff7b12e0&playbookExperienceId=0d71033773f220109edbc1f52ff6a741&title=Onboard%20Account" id="knowledge_iframe" style="width:100%;height:100%;border:0;" scrolling="no"/></div>
+   <script type="text/javascript">
+   // client script
+   function() { var c = this; 
+    var frame_src = "https://demoindustrywf56710.service-now.com/google", frame_id = "knowledge_iframe", frame_el = document.getElementById('knowledge_iframe'),frame_win; 
+    frame_el.onload = function() {
+    frame_win = frame_el.contentDocument; 
+    var x = document.getElementById("knowledge_iframe"); 
+    var y = x.contentWindow.document; y.body.style.backgroundColor = "blue"; 
+    console.log("y.body.scrollHeight ", y.body.scrollHeight); 
+    document.getElementById("knowledge_iframe").style.height = 600 + "px"; 
+} 
+frame_el.src = frame_src; 
+}
+   </script>
+   ]]>
+  </Content>
+</Module>
