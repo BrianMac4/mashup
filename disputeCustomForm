@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="SERVICENOW INSTANCE - CLAUDILLA"/>
+   <Content type="html"><![CDATA[
+   <div id="content_div"> <iframe src="https://cwfdevwasrtpjan16a130demo.service-now.com/google?id=industry_cat_item_multiform&sys_id=53807d7bebbbfd104189f510cad0cd0f&account=7591eb36db4e20902fe9df6b5e96199e&transID=1e1ba09b97df815097857ba71153af76" id="knowledge_iframe" style="width:100%;height:100%;border:0;" scrolling="no"/></div>
+   <script type="text/javascript">
+   // client script
+   function() { var c = this; 
+    var frame_src = "https://cwfdevwasrtpjan16a130demo.service-now.com/google", frame_id = "knowledge_iframe", frame_el = document.getElementById('knowledge_iframe'),frame_win; 
+    frame_el.onload = function() {
+    frame_win = frame_el.contentDocument; 
+    var x = document.getElementById("knowledge_iframe"); 
+    var y = x.contentWindow.document; y.body.style.backgroundColor = "blue"; 
+    console.log("y.body.scrollHeight ", y.body.scrollHeight); 
+    document.getElementById("knowledge_iframe").style.height = 600 + "px"; 
+} 
+frame_el.src = frame_src; 
+}
+   </script>
+   ]]>
+  </Content>
+</Module>
